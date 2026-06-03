@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/17-s5tjrVjZmHz59NTTezJikanRUWx5NT
 """
 
-!pip install mlflow==2.19.0
+pip install mlflow==2.19.0
 
 import mlflow
 
@@ -81,5 +81,5 @@ with mlflow.start_run():
 
 # Mengecek Apakah MLflow Menyimpan Run
 
-!ls mlruns
+# !ls mlruns
 
