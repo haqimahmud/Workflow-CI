@@ -1,7 +1,7 @@
-name: bank-marketing-env
+name: bank-marketing
 
 channels:
-  - defaults
+  - conda-forge
 
 dependencies:
   - python=3.12
@@ -10,5 +10,5 @@ dependencies:
   - pip:
       - mlflow
       - pandas
-      - numpy
       - scikit-learn
+      - numpy
