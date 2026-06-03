@@ -1,4 +1,4 @@
-name: bank-marketing-mlflow
+name: Bank Marketing Training Project
 
 conda_env: conda.yaml
 
